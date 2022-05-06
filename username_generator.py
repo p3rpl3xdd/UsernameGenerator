@@ -86,8 +86,8 @@ if __name__ == '__main__':
         
     formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=textwrap.dedent('''
-                                Example: un_gen.py -i <username list> -o <output file> -e <email>
-                                Example: un_gen.py -i username.txt -o generated_names.txt -e example.com
+                                Example: username_generator.py -i <username list> -o <output file> -e <email>
+                                Example: username_generator.py -i username.txt -o generated_names.txt -e example.com
                                ''')
     )
     
